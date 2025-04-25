@@ -1,12 +1,35 @@
-# React + Vite
+# Belmongen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Po prostu strona www generująca ksywke na podstawie ksywek belmondo. Jeśli masz pomysł na urozmaicenie tego generatora śmiało twórz pull request
+Strona dostępna jest [tutaj](https://belmongen.pl)
 
-Currently, two official plugins are available:
+## Technologie
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript (ES6+)](https://developer.mozilla.org/pl/docs/Web/JavaScript)
+- [React Router](https://reactrouter.com/)
 
-## Expanding the ESLint configuration
+## Uruchomienie projektu
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Zainstaluj zależności:
+
+   ```bash
+   npm install
+   ```
+
+2. Uruchom aplikację w trybie deweloperskim:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Otwórz przeglądarkę i przejdź do `http://localhost:5173`
+
+## Struktura projektu
+
+- `src/`
+  - `App.jsx` – główny komponent aplikacji i routing
+  - `pages/` – podstrony (np. Home, NotFound)
+  - `belmondawg.service.js` – logika generowania ksywek i ciągów znaków
+  - `names.const.js` – listy imion i przydomków
