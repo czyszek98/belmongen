@@ -17,7 +17,9 @@ function Home() {
         </button>
         <p></p>
       </div>
-      <p className="read-the-docs">Poradzimy sobie w inny sposób</p>
+      <p className="read-the-docs">
+        Generator pseudonimów na podstawie ksywek Belmondo
+      </p>
     </>
   );
 }
